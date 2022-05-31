@@ -1,0 +1,27 @@
+.box {
+    height: 80px;
+    background: yellow;
+   text-align: center;
+   color: rgb(234, 235, 250);
+}
+
+@media(min-width: 768px) {
+    .box {
+        background: green;
+      color: rgb(255, 255, 255);
+    }
+}
+
+@media(min-width: 1280px) {
+    .box {
+        background: rgb(0, 60, 255);
+        color: rgb(241, 241, 241);
+    }
+}
+
+@media(min-width: 2366px) {
+    .box {
+        background: rgb(245, 118, 0);
+        color: #FFF;
+    }
+}
